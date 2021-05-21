@@ -2,7 +2,6 @@
 title = "Yash Savani (About)"
 +++
 
-
 # Yash Savani
 
 {{< figure class="avatar" src="/avatar.jpg" alt="avatar">}}
@@ -103,11 +102,11 @@ My current research interests include statistical learning theory, optimization,
 > Intra-Processing Methods for Debiasing Neural Networks.\
 > NeurIPS 2020 Short Presentation - Oct 2020
 > {{< youtube PcCj91K7jO0 >}}
- 
+
 > Explainability and bias in Neural Nets.\
 > Abacus.AI Workshop - Aug 2020
 > {{< youtube 0PO6DgQe_9M >}}
- 
+
 > Unsupervised Learning & Deep Learning Based Forecasting.\
 > AICamp Workshop - May 2020
 > {{< youtube RcoW1KxXezE >}}
