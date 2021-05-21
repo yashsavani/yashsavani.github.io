@@ -18,10 +18,6 @@ googleAnalytics = ""
         colorBlack = "#222222"
         colorRed = "#dc3545"
     [[params.socialIcons]]
-        icon = "fab fa-twitter"
-        title = "Twitter"
-        url = "https://twitter.com/yashsavani_"
-    [[params.socialIcons]]
         icon = "fab fa-github"
         title = "Github"
         url = "https://github.com/yashsavani"
@@ -33,6 +29,10 @@ googleAnalytics = ""
         icon = "ai ai-google-scholar"
         title = "Google Scholar"
         url = "https://scholar.google.com/citations?user=WtCWzFwAAAAJ&hl=en"
+    [[params.socialIcons]]
+        icon = "fab fa-twitter"
+        title = "Twitter"
+        url = "https://twitter.com/yashsavani_"
 
 [permalinks]
 "/" = "/:filename"

@@ -14,6 +14,8 @@ ysavani AT cs DOT cmu DOT edu
 
 {{< contact >}}
 
+## About Me
+
 Hi! I'm a first-year Ph.D. candidate  in the Comptuer Science Department at Carnegie Mellon University.
 My current research interests include statistical learning theory, optimization, and deep learning.
 
