@@ -4,7 +4,7 @@ languageCode = "en-us"
 theme = "researcher"
 enableEmoji = true
 math = true
-googleAnalytics = "UA-135440082-1"
+googleAnalytics = "G-P1NJDJ6RHK"
 
 [params]
     author = "Yash Savani"
