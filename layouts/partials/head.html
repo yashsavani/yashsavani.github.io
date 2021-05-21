@@ -18,6 +18,9 @@
     {{ $style := resources.Get "sass/researcher.scss" | resources.ExecuteAsTemplate "sass/researcher.scss" . | toCSS |
     minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ $custom := resources.Get "sass/custom.scss" | resources.ExecuteAsTemplate "sass/custom.scss" . | toCSS |
+    minify }}
+    <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
 
     {{ with .Site.Params.favicon }}
     <link rel="icon" type="image/ico" href="{{ . | absURL }}">
