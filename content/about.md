@@ -78,19 +78,19 @@ My current research interests include statistical learning theory, optimization,
 ### 2020
 
 > [A Study on Encodings for Neural Architecture Search.](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_30.pdf) ([Poster](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_30_poster.pdf))\
-> C. White, W. Neiswanger, S. Nolen, Y. Savani.\
+> C. White, W. Neiswanger, S. Nolen, **Y. Savani**.\
 > ICML Workshop on AutoML, 2020.
 
 > [Local Search is State of the Art for Neural Architecture Search Benchmarks.](https://www.google.com/url?q=https%3A%2F%2Fwww.automl.org%2Fwp-content%2Fuploads%2F2020%2F07%2FAutoML_2020_paper_42.pdf&sa=D&sntz=1&usg=AFQjCNG0QDoQkMhDgOlsy9G2ZAhL1eiomQ) ([Poster](https://www.google.com/url?q=https%3A%2F%2Fwww.automl.org%2Fwp-content%2Fuploads%2F2020%2F07%2FAutoML_2020_paper_42_poster.pdf&sa=D&sntz=1&usg=AFQjCNFiep2Lpu3ZElarjBcyMy6IpBKtRA))\
-> C. White, S. Nolen, Y. Savani.\
+> C. White, S. Nolen, **Y. Savani**.\
 > ICML Workshop on AutoML, 2020.
 
 > [Neural Architecture Search via Bayesian Optimization with a Neural Network Prior.](http://metalearning.ml/2019/papers/metalearn2019-white.pdf)\
-> C. White, W. Neiswanger, Y. Savani.\
+> C. White, W. Neiswanger, **Y. Savani**.\
 > NeurIPS Workshop on Meta Learning, 2019.
 
 > [Deep Uncertainty Estimation for Model-based Neural Architecture Search.](http://bayesiandeeplearning.org/2019/papers/26.pdf)\
-> C. White, W. Neiswanger, Y. Savani.\
+> C. White, W. Neiswanger, **Y. Savani**.\
 > NeurIPS Workshop on Bayesian Deep Learning, 2019.
 
 ---

@@ -13,7 +13,7 @@ googleAnalytics = "G-P1NJDJ6RHK"
     logo = ""
     [params.style]
         fontFamily = "Lato"
-        pageWidth = "50%"
+        pageWidth = "60%"
         avatarSize = "200px"
         colorBlack = "#222222"
         colorRed = "#dc3545"
