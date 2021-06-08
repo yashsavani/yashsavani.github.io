@@ -1,8 +1,0 @@
-$max-mobile-width: {{ .Param "style.mobilePageWidth" | default "750px;" }};
-
-@media (max-width: 767px) {
-    /* Target devices narrower than 768px. */
-    .container {
-        max-width: $max-mobile-width;
-    }
-}

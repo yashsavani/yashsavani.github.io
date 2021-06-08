@@ -1,0 +1,22 @@
+<article class="mt-3 pb-3 border-b border-gray-300">
+    <!-- Experience -->
+    <h2>Experience</h2>
+    <ul class="space-y-3">
+        {{ range $item := .Site.Data.content.experience }}
+        <li>
+            <div class="flex flex-wrap flex-col md:flex-row items-baseline">
+                <h4 class="flex-auto">
+                    {{ $item.position }} at {{ if $item.company.url }}
+                    <a class="shadow-underline" href="{{ $item.company.url }}">{{ $item.company.name }}</a>
+                    {{ else }}
+                    {{ $item.company.name }}
+                    {{ end }}
+                </h4>
+                <p class="md:order-last w-full text-base font-light">{{ $item.location }}</p>
+                <p class="text-base font-light">{{ $item.dates }}</p>
+            </div>
+            <p>{{ $item.details }}</p>
+        </li>
+        {{ end }}
+    </ul>
+</article>

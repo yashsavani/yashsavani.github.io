@@ -1,0 +1,36 @@
+{
+  "name": "yashsavani.github.io",
+  "version": "1.0.0",
+  "description": "Academic website for Yash Savani.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashsavani/yashsavani.github.io.git"
+  },
+  "keywords": [
+    "website",
+    "blog",
+    "academic",
+    "science",
+    "artificial-intelligence",
+    "machine-learning",
+    "research"
+  ],
+  "author": "Yash Savani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashsavani/yashsavani.github.io/issues"
+  },
+  "homepage": "https://github.com/yashsavani/yashsavani.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "install": "^0.13.0",
+    "npm": "^7.16.0",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  }
+}

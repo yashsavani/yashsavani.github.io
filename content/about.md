@@ -1,5 +1,5 @@
 +++
-title = "Yash Savani (About)"
+title = "Yash Savani"
 +++
 
 # Yash Savani
@@ -11,19 +11,21 @@ Computer Science Department\
 Carnegie Mellon University\
 ysavani AT cs DOT cmu DOT edu
 
-{{< contact >}}
+---
 
 ## About Me
 
-Hi! I'm a first-year Ph.D. candidate in the Computer Science Department at Carnegie Mellon University.
-My current research interests include statistical learning theory, optimization, and deep learning.
+Hi! I am a research scientist, mathematician, and engineer with a passion for exploration and learning.
+The pervasive puzzles and patterns of our interconnected lives fascinate me, and I aspire to exercise my repertoire of
+math, computation, and collaboration skills to solve those puzzles with the highest positive societal impact.
+My current research interests include statistical learning theory, optimization theory, and deep learning.
 
 ---
 
 ## Education
 
 - Ph.D. in Computer Science (0.00 / 0.00)\
-    Carnegie Mellon University | Pittsburgh, PA | 2021 - Current
+    Carnegie Mellon University | Pittsburgh, PA | Aug 2021 - Current
 - M.S. in Statistics (3.77 / 4.00)\
     Stanford University | Palo Alto, CA | 2015 - 2017
 - B.S. in Computer Science (3.54 / 4.00)\
@@ -34,17 +36,20 @@ My current research interests include statistical learning theory, optimization,
 ## Experience
 
 - Research Scientist\
-    [Abacus.AI](https://abacus.ai/) (fka RealityEngines.AI) | San Francisco, CA | May 2020 - May 2021
+    [Abacus.AI](https://abacus.ai/) (fka RealityEngines.AI) | San Francisco, CA | May 2020 - May 2021\
+    I conducted research in the AutoML / Neural Architecture Search and Fairness in ML domains. We wrote five papers based on this work.
 - Machine Learning Engineer\
-    [Abacus.AI](https://abacus.ai/) (fka RealityEngines.AI) | San Francisco, CA | Apr 2020 - May 2020
+    [Abacus.AI](https://abacus.ai/) (fka RealityEngines.AI) | San Francisco, CA | Apr 2020 - May 2020\
+    I designed and implemented scalable deep learning systems for LSTM-based time-series forecasting, AutoML / neural architecture search for regression and classification, GAN-based data augmentation, and VAE-based anomaly detection among others.
 - Machine Learning Engineer\
-    [Primer Technologies, Inc.](https://primer.ai/) | San Francisco, CA | Aug 2017 - Dec 2018
+    [Primer Technologies, Inc.](https://primer.ai/) | San Francisco, CA | Aug 2017 - Dec 2018\
 - Research Intern\
-    Andrew Ng's Artificial Intelligence Lab | Stanford , CA | Jul 2015 - Sep 2015
+    Andrew Ng's Artificial Intelligence Lab | Stanford , CA | Jul 2015 - Sep 2015\
 - Cofounder (CTO)\
-    Ebotic | Palo Alto, CA | Jul 2014 - Dec 2015
+    Ebotic | Palo Alto, CA | Jul 2014 - Dec 2015\
+    I worked with an international team to develop an intelligent drone platform that applied advanced flight technologies, SLAM, and deep learning for improved flight stability and awareness.
 - Research Intern\
-    Sebastian Thrun's Artificial Intelligence Lab | Stanford , CA | Jun 2014 - Aug 2014
+    Sebastian Thrun's Artificial Intelligence Lab | Stanford , CA | Jun 2014 - Aug 2014\
 
 ---
 

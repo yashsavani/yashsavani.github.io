@@ -1,0 +1,26 @@
+<article class="mt-3 pb-3 border-b border-gray-300">
+    <!-- Workshop Publications -->
+    <h2>Workshop Publications</h2>
+    <ul class="space-y-2">
+        {{ range $batch := .Site.Data.content.workshop_publications }}
+        <li>
+            <h3 class="pb-1">{{ $batch.year }}</h3>
+            <ul class="space-y-3 pl-2">
+                {{ range $item := $batch.publications }}
+                <li>
+                    <h4>
+                        <a class="shadow-underline" href="{{ $item.url }}">{{ $item.title }}</a>
+                    </h4>
+                    {{ if $item.poster }} <a
+                        class="block px-2 py-1 my-2 max-w-max text-lg uppercase tracking-wider text-red-700 border-2 border-red-700 hover:bg-red-700 hover:text-gray-200 rounded-full transition ease-in-out duration-300"
+                        href="{{ $item.poster }}"> Poster</a>
+                    {{end}}
+                    <p class="font-light">{{ $item.authors }}</p>
+                    <p>{{ $item.workshop }}</p>
+                </li>
+                {{ end }}
+            </ul>
+        </li>
+        {{ end }}
+    </ul>
+</article>
