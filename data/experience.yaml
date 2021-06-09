@@ -1,0 +1,49 @@
+- position: Research Scientist
+  company: 
+    name: Abacus.AI
+    url: https://abacus.ai
+  location: San Francisco, CA
+  dates: May 2020 - May 2021
+  details: "I performed research in the AutoML / NAS and Fairness in ML domains.
+    We wrote five papers based on this work."
+- position: Machine Learning Engineer
+  company: 
+    name: Abacus.AI
+    url: https://abacus.ai
+  location: San Francisco, CA
+  dates: Apr 2019 - May 2020
+  details: "I designed and implemented scalable deep learning
+  architectures including LSTM forecasting models, AutoML / NAS regression and classification models, GAN data
+  augmentation models, and VAE anomaly detection models among others."
+- position: Machine Learning Engineer
+  company: 
+    name: Primer.AI
+    url: https://primer.ai
+  location: San Francisco, CA
+  dates: Aug 2017 - Dec 2018
+  details: "I worked on improving contemporary statistical learning and applied graph theory models for natural
+  language applications. The machine intelligence algorithms I developed help decipher global news data."
+- position: Research Intern
+  company: 
+    name: Andrew Ng's Artificial Intelligence Lab
+    url: false
+  location: Stanford University, CA
+  dates: Jul 2015 - Sep 2015
+  details: "I worked on the system infrastructure and CUDA code for a hybrid CNN and LSTM architecture designed to
+  instantly detect and semantically segment images and videos with multiple stimuli."
+- position: Cofounder (CTO)
+  company: 
+    name: Ebotic, Inc.
+    url: false
+  location: Palo Alto, CA
+  dates: Jul 2014 - Dec 2015
+  details: "I worked with an international team to develop an intelligent drone platform that applied advanced flight
+  technologies, SLAM, and deep learning for improved flight stability and awareness."
+- position: Research Intern
+  company: 
+    name: Sebastian Thrun's Artificial Intelligence Lab
+    url: false
+  location: Stanford University, CA
+  dates: Jun 2014 - Aug 2014
+  details: "I improved the performance of machine learning algorithms for smart home applications by adding thermal
+  image descriptors into a robotics pipeline."

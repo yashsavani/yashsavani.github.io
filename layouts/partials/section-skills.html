@@ -3,7 +3,7 @@
     <h2>Skills</h2>
     <p class="text-base font-light">Commonly used skills are highlighted.</p>
     <ul class="space-y-3">
-        {{ range $item := .Site.Data.content.skills }}
+        {{ range $item := .Site.Data.skills }}
         <li>
             <h4>{{ $item.name }} </h4>
             {{ $len := (len $item.details)}}

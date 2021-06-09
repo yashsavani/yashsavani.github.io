@@ -1,23 +1,24 @@
 <article class="flex flex-col md:flex-row justify-between items-center">
     <!-- Hero -->
     <section class="md:order-2 rounded-full overflow-hidden shadow-lg h-64 w-64">
-        <img src="{{ .Site.Data.content.hero_data.avatar }}" alt="Headshot">
+        <img src="{{ .Site.Data.hero.avatar }}" alt="Headshot">
     </section>
     <section class="text-center flex flex-col items-center">
         <h1 class="mt-4 md:mt-0">Yash <span class="text-red-600">Savani</span></h1>
         <h3 class="text-xl mt-4">
-            {{ .Site.Data.content.hero_data.position }} <br>
-            {{ .Site.Data.content.hero_data.workplace }}
+            {{ .Site.Data.hero.position }} <br>
+            {{ .Site.Data.hero.workplace }}
         </h3>
         <h3 class="text-xl mt-4">
-            {{ .Site.Data.content.hero_data.email }}
+            {{ .Site.Data.hero.email }}
         </h3>
         <ul class="w-full flex justify-evenly mt-4 text-red-600">
-            {{ range $item := .Site.Data.content.hero_data.contacts }}
+            {{ range $item := .Site.Data.hero.contacts }}
             <li><a href="{{ $item.url }}" class="{{ $item.icon }} fa-2x" title="{{ $item.title }}"></a></li>
             {{ end }}
         </ul>
-        <a href="{{ .Site.Data.content.hero_data.resume_url }}" class="px-3 py-1 mt-4 flex items-center justify-evenly rounded-full text-red-600 border-2 border-red-600 uppercase tracking-wider
+        <a href="{{ .Site.Data.hero.resume_url }}"
+            class="px-3 py-1 mt-4 flex items-center justify-evenly rounded-full text-red-600 border-2 border-red-600 uppercase tracking-wider
                     hover:text-gray-200 hover:bg-red-600 transition ease-in-out duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 pr-1 flex-none" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
