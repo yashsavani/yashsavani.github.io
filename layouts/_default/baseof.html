@@ -6,7 +6,7 @@
 {{- partial "math.html" . -}}
 {{ end }}
 
-<body class="bg-gray-200 text-gray-700 font-lato text-lg px-4">
+<body class="bg-gray-200 text-gray-700 font-lato text-lg px-4 min-h-screen flex flex-col">
     {{- partial "header.html" . -}}
     {{- block "main" . }}{{- end }}
     {{- partial "footer.html" . -}}
