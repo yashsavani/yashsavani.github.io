@@ -1,5 +1,9 @@
 - year: 2021
   publications:
+  - title: "NAS-Bench-x11 and the Power of Learning Curves."
+    url: https://arxiv.org/abs/2111.03602
+    authors: "S. Yan, C. White, Y. Savani, F. Hutter."
+    conference: "Advances in Neural Information Processing Systems (NeurIPS) 2021."
   - title: "Exploring the Loss Landscape in Neural Architecture Search."
     url: https://arxiv.org/abs/2005.02960
     authors: "C. White, S. Nolen, Y.Savani."
@@ -12,7 +16,7 @@
   publications:
   - title: "Intra-Processing Methods for Debiasing Neural Networks."
     url: https://arxiv.org/abs/2006.08564
-    authors: "Y. Savani, C. White, and N. S. Govindarajulu."
+    authors: "Y. Savani, C. White, N. S. Govindarajulu."
     conference: "Advances in Neural Information Processing Systems (NeurIPS) 2020."
   - title: "A Study on Encodings for Neural Architecture Search."
     url: https://arxiv.org/abs/2007.04965
