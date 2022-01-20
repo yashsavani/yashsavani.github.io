@@ -6,7 +6,7 @@ title = "Yash Savani"
 
 {{< figure class="avatar" src="/avatar.jpg" alt="avatar">}}
 
-Ph.D. Candidate\
+First year Ph.D. student advised by [Zico Kolter](http://zicokolter.com/))\
 Computer Science Department\
 Carnegie Mellon University\
 ysavani AT cs DOT cmu DOT edu
