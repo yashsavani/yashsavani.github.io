@@ -1,3 +1,9 @@
+- year: 2022
+  publications:
+  - title: "Deep Equilibrium Optical Flow Estimation."
+    url: https://arxiv.org/abs/2204.08442
+    authors: "S. Bai, Z. Geng, Y. Savani, J. Z. Kolter."
+    conference: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022."
 - year: 2021
   publications:
   - title: "NAS-Bench-x11 and the Power of Learning Curves."
