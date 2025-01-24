@@ -7,7 +7,7 @@
     - name: C / C++
       special: false
     - name: CUDA
-      special: false
+      special: true
     - name: Javascript
       special: false
     - name: R
@@ -15,8 +15,6 @@
     - name: Java
       special: false
     - name: MATLAB
-      special: false
-    - name: Racket
       special: false
     - name: Haskell
       special: false
@@ -31,6 +29,8 @@
 - name: "Frameworks / Tools"
   details: 
     - name: PyTorch
+      special: true
+    - name: JAX
       special: true
     - name: TensorFlow
       special: false
