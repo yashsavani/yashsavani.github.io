@@ -1,3 +1,8 @@
+- year: 2023
+  list:
+  - title: "Teaching Assistant for 15-750: Algorithms in the Real World"
+    venue: "CMU"
+    date: "Fall 2023"
 - year: 2020
   list:
   - title: "Intra-Processing Methods for Debiasing Neural Networks."

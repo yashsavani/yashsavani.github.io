@@ -1,3 +1,9 @@
+- year: 2024
+  publications:
+  - title: "Diffusing Differentiable Representations."
+    url: https://arxiv.org/abs/2412.06981
+    authors: "Y. Savani, M. Finzi, J. Z. Kolter."
+    conference: "Advances in Neural Information Processing Systems (NeurIPS) 2024."
 - year: 2022
   publications:
   - title: "Deep Equilibrium Optical Flow Estimation."
