@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yash Savani</title><link>https://yashsavani.com/</link><description>Recent content on Yash Savani</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://yashsavani.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Yash Savani</title><link>https://yashsavani.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yashsavani.com/about/</guid><description>Yash Savani First year Ph.D. student advised by Zico Kolter)
-Computer Science Department
-Carnegie Mellon University
-ysavani AT cs DOT cmu DOT edu
-About Me Hi! I am a research scientist, mathematician, and engineer with a passion for exploration and learning. The pervasive puzzles and patterns of our interconnected lives fascinate me, and I aspire to exercise my repertoire of math, computation, and collaboration skills to solve those puzzles with the highest positive societal impact.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yash Savani</title><link>https://yashsavani.com/</link><description>Recent content on Yash Savani</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://yashsavani.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Yash Savani</title><link>https://yashsavani.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yashsavani.com/about/</guid><description>&lt;h1 id="yash-savani">Yash Savani&lt;/h1>
+&lt;figure class="avatar">&lt;img src="https://yashsavani.com/avatar.jpg"
+ alt="avatar">
+&lt;/figure>
+
+&lt;p>First year Ph.D. student advised by &lt;a href="http://zicokolter.com/">Zico Kolter&lt;/a>)&lt;br>
+Computer Science Department&lt;br>
+Carnegie Mellon University&lt;br>
+ysavani AT cs DOT cmu DOT edu&lt;/p>
+&lt;hr>
+&lt;h2 id="about-me">About Me&lt;/h2>
+&lt;p>Hi! I am a research scientist, mathematician, and engineer with a passion for exploration and learning.
+The pervasive puzzles and patterns of our interconnected lives fascinate me, and I aspire to exercise my repertoire of
+math, computation, and collaboration skills to solve those puzzles with the highest positive societal impact.
+My current research interests include statistical learning theory, optimization theory, and deep learning.&lt;/p></description></item></channel></rss>
