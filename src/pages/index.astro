@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AboutMe from '../components/AboutMe.astro';
+import Education from '../components/Education.astro';
+import ConferencePublications from '../components/ConferencePublications.astro';
+import WorkshopPublications from '../components/WorkshopPublications.astro';
+import Teaching from '../components/Teaching.astro';
+import Experience from '../components/Experience.astro';
+import Skills from '../components/Skills.astro';
+---
+
+<BaseLayout>
+  <main class="max-w-3xl mx-auto flex-auto py-12 px-6">
+    <Hero />
+    <AboutMe />
+    <Education />
+    <ConferencePublications />
+    <WorkshopPublications />
+    <Experience />
+    <Teaching />
+    <Skills />
+  </main>
+</BaseLayout>

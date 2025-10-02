@@ -1,10 +1,13 @@
 {
   "name": "yashsavani.github.io",
+  "type": "module",
   "version": "1.0.0",
   "description": "Academic website for Yash Savani.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "repository": {
     "type": "git",
@@ -25,12 +28,10 @@
     "url": "https://github.com/yashsavani/yashsavani.github.io/issues"
   },
   "homepage": "https://github.com/yashsavani/yashsavani.github.io#readme",
-  "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "install": "^0.13.0",
-    "npm": "^8.11.0",
-    "postcss": "^8.4.31",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.4"
+  "dependencies": {
+    "@rollup/plugin-yaml": "^4.1.2",
+    "@tailwindcss/vite": "^4.1.14",
+    "astro": "^5.14.1",
+    "tailwindcss": "^4.1.14"
   }
 }

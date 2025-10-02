@@ -1,0 +1,32 @@
+- year: 2025
+  list:
+  - title: "Teaching Assistant for 07-300: Research and Innovation in Computer Science!"
+    venue: "CMU"
+    date: "Fall 2025"
+    url: "https://cmu-research.github.io/07300-f25/"
+- year: 2023
+  list:
+  - title: "Teaching Assistant for 15-750: Algorithms in the Real World"
+    venue: "CMU"
+    date: "Fall 2023"
+    url: "https://www.cs.cmu.edu/~15750/"
+- year: 2020
+  list:
+  - title: "Intra-Processing Methods for Debiasing Neural Networks."
+    venue: "NeurIPS 2020 Short Presentation"
+    date: Oct 2020
+    link: PcCj91K7jO0
+  - title: "Explainability and bias in Neural Nets."
+    venue: "Abacus.AI Workshop"
+    date: Aug 2020
+    link: 0PO6DgQe_9M
+  - title: "Anomaly Detection."
+    venue: "Abacus.AI Talk"
+    date: Feb 2020
+    link: jDjwY9bB7Ec
+- year: 2019
+  list:
+  - title: "XLNET: The State-of-the-Art in Language Models."
+    venue: "Abacus.AI Talk"
+    date: Aug 2019
+    link: jh81xHY6uBw

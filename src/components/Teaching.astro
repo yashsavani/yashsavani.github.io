@@ -1,0 +1,36 @@
+---
+import teaching from '../data/teaching.yaml';
+---
+
+<article>
+  <h2>Teaching</h2>
+  <ul class="space-y-8">
+    {teaching.map((batch) => (
+      <li>
+        <h3>{batch.year}</h3>
+        <ul class="space-y-6 pl-4">
+          {batch.list.map((item) => (
+            <li>
+              <div class="flex flex-wrap flex-col md:flex-row items-baseline">
+                <h4 class="flex-auto !mb-0">{item.venue}</h4>
+                <p class="flex-none text-base font-light !mb-0">{item.date}</p>
+                <p class="w-full !mt-1">
+                  {item.url ? (
+                    <a href={item.url} class="shadow-underline">{item.title}</a>
+                  ) : (
+                    item.title
+                  )}
+                  {item.link && (
+                    <span class="ml-2">
+                      (<a href={`https://www.youtube.com/watch?v=${item.link}`} class="text-red-600 hover:underline" target="_blank" rel="noopener noreferrer">Watch</a>)
+                    </span>
+                  )}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))}
+  </ul>
+</article>

@@ -1,0 +1,25 @@
+---
+import experience from '../data/experience.yaml';
+---
+
+<article>
+  <h2>Experience</h2>
+  <ul class="space-y-10">
+    {experience.map((item) => (
+      <li>
+        <div class="flex flex-wrap flex-col md:flex-row items-baseline">
+          <h4 class="flex-auto !mb-0">
+            {item.position} at {item.company.url ? (
+              <a class="shadow-underline" href={item.company.url}>{item.company.name}</a>
+            ) : (
+              item.company.name
+            )}
+          </h4>
+          <p class="md:order-last w-full text-base font-light !mb-0">{item.location}</p>
+          <p class="text-base font-light !mb-0">{item.dates}</p>
+        </div>
+        <p class="!mt-1">{item.details}</p>
+      </li>
+    ))}
+  </ul>
+</article>

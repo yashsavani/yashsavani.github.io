@@ -1,0 +1,25 @@
+---
+import skills from '../data/skills.yaml';
+---
+
+<article>
+  <h2>Skills</h2>
+  <p class="text-sm font-light">Commonly used skills are highlighted.</p>
+  <ul class="space-y-6">
+    {skills.map((item) => (
+      <li>
+        <h4 class="!mb-2">{item.name}</h4>
+        <div class="flex flex-wrap gap-2">
+          {item.details.map((detail) => (
+            <span class={detail.special
+              ? "px-3 py-1 rounded-full bg-red-400 text-white text-sm"
+              : "px-3 py-1 rounded-full bg-gray-200 text-gray-700 text-sm"
+            }>
+              {detail.name}
+            </span>
+          ))}
+        </div>
+      </li>
+    ))}
+  </ul>
+</article>

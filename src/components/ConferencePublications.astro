@@ -1,0 +1,33 @@
+---
+import publications from '../data/conference_publications.yaml';
+import hero from '../data/hero.yaml';
+
+function boldMyName(authors: string) {
+  return authors.replace(/Y\. Savani/g, '<strong>Y. Savani</strong>');
+}
+
+const scholarLink = hero.contacts.find(c => c.title === 'Google Scholar')?.url || '';
+---
+
+<article>
+  <h2>Conference Publications</h2>
+  <p class="text-sm font-light">
+    (For the most up to date list look at my <a href={scholarLink} class="shadow-underline">Google Scholar page</a>)
+  </p>
+  <ul class="space-y-8">
+    {publications.map((batch) => (
+      <li>
+        <h3>{batch.year}</h3>
+        <ul class="space-y-8 pl-4">
+          {batch.publications.map((item, index, arr) => (
+            <li class={index < arr.length - 1 ? "pb-8 border-b border-gray-200" : ""}>
+              <h4 class="!mb-0"><a class="shadow-underline" href={item.url}>{item.title}</a></h4>
+              <p class="font-light !mb-0 !mt-0 pl-4" set:html={boldMyName(item.authors)} />
+              <p class="font-semibold text-gray-400 !mb-0 !mt-0">{item.conference}</p>
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))}
+  </ul>
+</article>
