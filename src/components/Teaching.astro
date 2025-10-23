@@ -15,15 +15,19 @@ import teaching from '../data/teaching.yaml';
                 <h4 class="flex-auto !mb-0">{item.venue}</h4>
                 <p class="flex-none text-base font-light !mb-0">{item.date}</p>
                 <p class="w-full !mt-1">
-                  {item.url ? (
+                  {item.link ? (
+                    <a
+                      href={`https://www.youtube.com/watch?v=${item.link}`}
+                      class="shadow-underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {item.title}
+                    </a>
+                  ) : item.url ? (
                     <a href={item.url} class="shadow-underline">{item.title}</a>
                   ) : (
                     item.title
-                  )}
-                  {item.link && (
-                    <span class="ml-2">
-                      (<a href={`https://www.youtube.com/watch?v=${item.link}`} class="text-red-600 hover:underline" target="_blank" rel="noopener noreferrer">Watch</a>)
-                    </span>
                   )}
                 </p>
               </div>

@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  @apply text-4xl font-lustria font-bold mt-12 mb-6;
+  @apply text-4xl font-lustria font-bold mt-8 mb-5;
 }
 
 h3 {
@@ -51,5 +51,5 @@ article {
 /* Section dividers */
 article:not(:last-child) {
   border-bottom: 1px solid rgba(209, 213, 219, 0.5);
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
