@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-lustria: 'Lustria', serif;
+  --font-family-lato: 'Lato', sans-serif;
+}
+
+@utility font-lustria {
+  font-family: var(--font-family-lustria);
+}
+
+@utility font-lato {
+  font-family: var(--font-family-lato);
+}
+
+/* Custom utilities */
+.shadow-underline {
+  box-shadow: inset 0 -0.350em 0 0 #FCA5A5;
+}
+
+/* Typography base styles */
+body {
+  @apply leading-relaxed;
+}
+
+h1 {
+  @apply text-5xl font-lustria font-bold;
+}
+
+h2 {
+  @apply text-4xl font-lustria font-bold mt-8 mb-5;
+}
+
+h3 {
+  @apply text-2xl font-lustria mt-6 mb-3;
+}
+
+h4 {
+  @apply text-xl font-lustria mb-2;
+}
+
+p {
+  @apply leading-normal mb-4;
+  max-width: 70ch;
+}
+
+article {
+  @apply mb-4;
+}
+
+/* Section dividers */
+article:not(:last-child) {
+  border-bottom: 1px solid rgba(209, 213, 219, 0.5);
+  padding-bottom: 2rem;
+}

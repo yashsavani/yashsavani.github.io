@@ -1,0 +1,50 @@
+- year: 2025
+  publications:
+  - title: "Antidistillation Sampling."
+    url: https://arxiv.org/abs/2504.13146
+    authors: "Y. Savani*, A. Trockman*, Z. Feng, Y. E. Xu, A. Schwarzschild, A. Robey, M. Finzi, J. Z. Kolter."
+    conference: "Advances in Neural Information Processing Systems (NeurIPS) 2025."
+  - title: "Safety Pretraining: Toward the Next Generation of Safe AI."
+    url: https://arxiv.org/abs/2504.16980
+    authors: "P. Maini, S. Goyal, D. Sam, A. Robey, Y. Savani, Y. Jiang, A. Zou, M. Fredrikson, Z. C. Lipton, J. Z. Kolter."
+    conference: "Advances in Neural Information Processing Systems (NeurIPS) 2025."
+  - title: "Not All Rollouts are Useful: Down-Sampling Rollouts in LLM Reinforcement Learning."
+    url: https://arxiv.org/abs/2504.13818
+    authors: "Y. E. Xu*, Y. Savani*, F. Fang, J. Z. Kolter."
+    conference: "ArXiv Preprint."
+- year: 2024
+  publications:
+  - title: "Diffusing Differentiable Representations."
+    url: https://arxiv.org/abs/2412.06981
+    authors: "Y. Savani, M. Finzi, J. Z. Kolter."
+    conference: "Advances in Neural Information Processing Systems (NeurIPS) 2024."
+- year: 2022
+  publications:
+  - title: "Deep Equilibrium Optical Flow Estimation."
+    url: https://arxiv.org/abs/2204.08442
+    authors: "S. Bai, Z. Geng, Y. Savani, J. Z. Kolter."
+    conference: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022."
+- year: 2021
+  publications:
+  - title: "NAS-Bench-x11 and the Power of Learning Curves."
+    url: https://arxiv.org/abs/2111.03602
+    authors: "S. Yan, C. White, Y. Savani, F. Hutter."
+    conference: "Advances in Neural Information Processing Systems (NeurIPS) 2021."
+  - title: "Exploring the Loss Landscape in Neural Architecture Search."
+    url: https://arxiv.org/abs/2005.02960
+    authors: "C. White, S. Nolen, Y. Savani."
+    conference: "Conference on Uncertainty in Artificial Intelligence (UAI). PMLR, 2021."
+  - title: "BANANAS: Bayesian Optimization with Neural Architectures for Neural Architecture Search."
+    url: https://arxiv.org/abs/1910.11858
+    authors: "C. White, W. Neiswanger, Y. Savani."
+    conference: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) 2021."
+- year: 2020
+  publications:
+  - title: "Intra-Processing Methods for Debiasing Neural Networks."
+    url: https://arxiv.org/abs/2006.08564
+    authors: "Y. Savani, C. White, N. S. Govindarajulu."
+    conference: "Advances in Neural Information Processing Systems (NeurIPS) 2020."
+  - title: "A Study on Encodings for Neural Architecture Search."
+    url: https://arxiv.org/abs/2007.04965
+    authors: "C. White, W. Neiswanger, S. Nolen, Y. Savani."
+    conference: "Advances in Neural Information Processing Systems (NeurIPS) 2020."

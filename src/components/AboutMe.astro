@@ -1,0 +1,22 @@
+---
+import aboutMe from '../data/about_me.yaml';
+
+function parseMarkdown(text: string) {
+  // First parse links with bold inside: **[text](url)**
+  let result = text.replace(/\*\*\[([^\]]+)\]\(([^)]+)\)\*\*/g, '<strong><a href="$2" class="shadow-underline">$1</a></strong>');
+  // Then parse regular links: [text](url)
+  result = result.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="shadow-underline">$1</a>');
+  // Finally parse bold text: **text**
+  result = result.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  return result;
+}
+---
+
+<article>
+  <h2>About Me</h2>
+  <p class="!leading-[2.1] mb-12" set:html={parseMarkdown(aboutMe.statement)} />
+  <p class="!leading-[2.1]">
+    If you're interested in discussing new ideas or collaborating, feel free to drop me an email or
+    <a href="https://calendly.com/yashsavani/30min" class="shadow-underline">schedule a meeting with me here</a>!
+  </p>
+</article>
